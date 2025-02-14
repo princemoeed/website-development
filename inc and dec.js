@@ -1,0 +1,9 @@
+i=96
+console.log("step1",i++)
+console.log("step2",i++)
+console.log("step3",++i)
+console.log("step4",++i)
+console.log("step5",--i)
+console.log("step6",--i)
+console.log("step7",i--)
+console.log("step8",i--)

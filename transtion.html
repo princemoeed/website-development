@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contanir{background-color: aqua;
+    height:  80vh;
+    width:30vw;}
+.box{background-color: brown;
+border: 2px;
+height: 30vh;
+width: 30v;
+/* transition-property: transform;
+transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+transition-duration: 10s;
+transition-duration: 5s; */
+transition: transform 10s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+    .translate{
+    transform: rotate(220deg);
+    }
+.translate1{transform: scale(1.5);}
+</style>
+<body>
+    <div class="contanir">
+<div class="box translate"></div>
+    </div>
+</body>
+</html>
